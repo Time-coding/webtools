@@ -49,11 +49,15 @@ const OS = getOS()
 
 ### Array  
 #### &emsp;&emsp;[arrayEqual][arrayEqual]&emsp;&emsp;判断两个数组是否相等 
+#### &emsp;&emsp;[getMax][getMax]&emsp;&emsp;获取数组的最大值 
+#### &emsp;&emsp;[getMin][getMin]&emsp;&emsp;获取数组的最小值 
 
 ### Class
 #### &emsp;&emsp;[addClass][addClass]&emsp;&emsp;为元素添加class  
 #### &emsp;&emsp;[hasClass][hasClass]&emsp;&emsp;判断元素是否有某个class  
 #### &emsp;&emsp;[removeClass][removeClass]&emsp;&emsp;为元素移除class  
+#### &emsp;&emsp;[getByClass][getByClass]&emsp;&emsp;根据类名获取元素  
+
 
 ### Cookie 
 #### &emsp;&emsp;[getCookie][getCookie]&emsp;&emsp;根据name读取Cookie  
@@ -67,6 +71,7 @@ const OS = getOS()
 ### Dom  
 #### &emsp;&emsp;[getScrollTop][getScrollTop]&emsp;&emsp;获取滚动条距顶部的距离
 #### &emsp;&emsp;[offset][offset]&emsp;&emsp;获取一个元素的距离文档(document)的位置，类似jQ中的offset()
+#### &emsp;&emsp;[getText][getText]&emsp;&emsp;获取标签内部的纯文本内容
 #### &emsp;&emsp;[scrollTo][scrollTo]&emsp;&emsp;在${duration}时间内，滚动条平滑滚动到${to}指定位置
 #### &emsp;&emsp;[setScrollTop][setScrollTop]&emsp;&emsp;设置滚动条距顶部的距离
 
@@ -100,6 +105,7 @@ const OS = getOS()
 #### 
 
 ### Time  
+#### &emsp;&emsp;[changeSecond][changeSecond]&emsp;&emsp;将秒转换为h:m:s
 #### &emsp;&emsp;[formatPassTime][formatPassTime]&emsp;&emsp;格式化${startTime}距现在的已过时间
 #### &emsp;&emsp;[formatRemainTime][formatRemainTime]&emsp;&emsp;格式化现在距${endTime}的剩余时间
 
@@ -111,20 +117,25 @@ const OS = getOS()
 #### &emsp;&emsp;[view3d][view3d]&emsp;&emsp;点击鼠标拖动，查看3D效果
 
 [arrayEqual]:https://github.com/Time-coding/webtools/blob/master/arrayEqual.js
+[getMax]:https://github.com/Time-coding/webtools/blob/master/getMax.js
+[getMin]:https://github.com/Time-coding/webtools/blob/master/getMin.js
 
 [addClass]:https://github.com/Time-coding/webtools/blob/master/addClass.js
 [hasClass]:https://github.com/Time-coding/webtools/blob/master/hasClass.js
 [removeClass]:https://github.com/Time-coding/webtools/blob/master/removeClass.js
+[getByClass]:https://github.com/Time-coding/webtools/blob/master/getByClass.js
 
 [getCookie]:https://github.com/Time-coding/webtools/blob/master/src/cookie/getCookie.js
 [removeCookie]:https://github.com/Time-coding/webtools/blob/master/src/cookie/removeCookie.js
 [setCookie]:https://github.com/Time-coding/webtools/blob/master/src/cookie/setCookie.js
+[setCookieDay]:https://github.com/Time-coding/webtools/blob/master/src/cookie/setCookieDay.js
 
 [getExplore]:https://github.com/Time-coding/webtools/blob/master/src/device/getExplore.js
 [getOS]:https://github.com/Time-coding/webtools/blob/master/src/device/getOS.js
 
 [getScrollTop]:https://github.com/Time-coding/webtools/blob/master/src/dom/getScrollTop.js
 [offset]:https://github.com/Time-coding/webtools/blob/master/src/dom/offset.js
+[getText]:https://github.com/Time-coding/webtools/blob/master/src/dom/getText.js
 [scrollTo]:https://github.com/Time-coding/webtools/blob/master/src/dom/scrollTo.js
 [setScrollTop]:https://github.com/Time-coding/webtools/blob/master/src/dom/setScrollTop.js
 
@@ -149,6 +160,7 @@ const OS = getOS()
 
 [isSupportWebP]:https://github.com/Time-coding/webtools/blob/master/src/support/isSupportWebP.js
 
+[changeSecond]:https://github.com/Time-coding/webtools/blob/master/src/time/changeSecond.js
 [formatPassTime]:https://github.com/Time-coding/webtools/blob/master/src/time/formatPassTime.js
 [formatRemainTime]:https://github.com/Time-coding/webtools/blob/master/src/time/formatRemainTime.js
 

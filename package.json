@@ -2,7 +2,7 @@
   "name": "webcommon",
   "version": "2.0.3",
   "description": "前端业务代码工具库",
-  "main": "min/webtools.min.js",
+  "main": "min/webcommon.min.js",
   "scripts": {
     "build": "node script/build.js",
     "test": "node script/test.js"
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/Time-coding/webtools.git"
   },
   "keywords": [
-    "webtools",
+    "webcommon",
     "tool"
   ],
   "author": "time-coding",
