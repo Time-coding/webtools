@@ -1,11 +1,11 @@
-# webtools
+# webcommon
 
-[![Build Status](https://travis-ci.org/Time-coding/webtools.svg?branch=master) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/webtools) 
+[![Build Status](https://travis-ci.org/Time-coding/webcommon.svg?branch=master) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/webcommon) 
 
  
 前端业务代码工具库  
 
-> 本次工具是模仿webtools，自己造轮子，还有网上收集的工具函数，进一步封装,在这里感谢webtools的作者，还有好友Alex
+> 本次工具是模仿outils，自己造轮子，还有网上收集的工具函数，进一步封装,在这里感谢outils的作者，还有好友Alex
 
 > 目的：高效率完成前端业务代码
 
@@ -13,14 +13,14 @@
 
 ## 安装使用
 
-1. 直接下载`min`目录下的[webtools.min.js](https://github.com/Time-coding/webtools/blob/master/min/webtools.min.js)使用，支持UMD通用模块规范  
+1. 直接下载`min`目录下的[webcommon.min.js](https://github.com/Time-coding/webtools/blob/master/min/webcommon.min.js)使用，支持UMD通用模块规范  
 2. 使用npm安装
 
 ### 浏览器:
 ``` html
-  <script src="webtools.min.js"></script>
+  <script src="webcommon.min.js"></script>
   <script>
-      var OS = webtools.getOS()
+      var OS = webcommon.getOS()
   </script>
 ```
 
@@ -33,16 +33,16 @@ webpack、RequireJS、SeaJS等
 
 ``` javascript
 // 完整引入
-const webtools = require('webtools')
-const OS = webtools.getOS()
+const webcommon = require('webtools')
+const OS = webcommon.getOS()
 ```
 
 **推荐使用方法**  
 
 你真的不需要完整引入所有函数，所以只引入需要使用的方法即可。
 ``` javascript
-// 只引入部分方法('webtools/<方法名>')
-const getOS = require('webtools/getOS')
+// 只引入部分方法('webcommon/<方法名>')
+const getOS = require('webcommon/getOS')
 const OS = getOS()
 ```
 ## API文档
