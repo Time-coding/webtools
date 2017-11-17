@@ -1,21 +1,28 @@
 /**
  * @desc webpack打包入口文件
  */
+const view3d=require('./3d/view3d')
+
 const arrayEqual = require('./array/arrayEqual')
+const getMax = require('./array/getMax')
+const getMin = require('./array/getMin')
 
 const addClass = require('./class/addClass')
 const hasClass = require('./class/hasClass')
 const removeClass = require('./class/removeClass')
+const getByClass = require('./class/getByClass')
 
 const getCookie = require('./cookie/getCookie')
 const removeCookie = require('./cookie/removeCookie')
 const setCookie = require('./cookie/setCookie')
+const setCookieDay = require('./cookie/setCookieDay')
 
 const getOS = require('./device/getOS')
 const getExplore = require('./device/getExplore')
 
 const getScrollTop = require('./dom/getScrollTop')
 const offset = require('./dom/offset')
+const getText = require('./dom/getText')
 const scrollTo = require('./dom/scrollTo')
 const setScrollTop = require('./dom/setScrollTop')
 
@@ -28,6 +35,7 @@ const deepClone = require('./object/deepClone')
 const isEmptyObject = require('./object/isEmptyObject')
 
 const randomColor = require('./random/randomColor')
+const randomColorRgb = require('./random/randomColorRgb')
 const randomNum = require('./random/randomNum')
 
 const isEmail = require('./regexp/isEmail')
@@ -39,6 +47,7 @@ const digitUppercase = require('./string/digitUppercase')
 
 const isSupportWebP = require('./support/isSupportWebP')
 
+const changeSecond = require('./time/changeSecond')
 const formatPassTime = require('./time/formatPassTime')
 const formatRemainTime = require('./time/formatRemainTime')
 
@@ -47,21 +56,28 @@ const stringfyQueryString = require('./url/stringfyQueryString')
 
 
 module.exports = {
+    view3d,
+
     arrayEqual,
+    getMax,
+    getMin,
 
     addClass,
     hasClass,
     removeClass,
+    getByClass,
 
     getCookie,
     removeCookie,
     setCookie,
+    setCookieDay,
 
     getOS,
     getExplore,
 
     getScrollTop,
     offset,
+    getText,
     scrollTo,
     setScrollTop,
 
@@ -74,6 +90,7 @@ module.exports = {
     isEmptyObject,
 
     randomColor,
+    randomColorRgb,
     randomNum,
 
     isEmail,
@@ -85,6 +102,7 @@ module.exports = {
 
     isSupportWebP,
 
+    changeSecond,
     formatPassTime,
     formatRemainTime,
     parseQueryString,
