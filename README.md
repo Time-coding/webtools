@@ -26,14 +26,14 @@
 
 ### npm:
 ``` bash
-$ npm install --save-dev webtools
+$ npm install --save-dev webcommon
 ```
 
 webpack、RequireJS、SeaJS等
 
 ``` javascript
 // 完整引入
-const webcommon = require('webtools')
+const webcommon = require('webcommon')
 const OS = webcommon.getOS()
 ```
 
