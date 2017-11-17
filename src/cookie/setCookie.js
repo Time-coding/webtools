@@ -10,7 +10,7 @@
 //     date.setDate(date.getDate() + days);
 //     document.cookie = name + '=' + value + ';expires=' + date;
 // }
-function SetCookie(name, value, extime) {
+function setCookie(name, value, extime) {
     var Days = 30;
     var exp = new Date();
     var text1 = exp.getTime();

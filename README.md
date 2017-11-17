@@ -20,7 +20,7 @@
 ``` html
   <script src="webcommon.min.js"></script>
   <script>
-      var OS = webcommon.getOS()
+      var OS = webcommon.getOS() //直接调用
   </script>
 ```
 
@@ -34,7 +34,7 @@ webpack、RequireJS、SeaJS等
 ``` javascript
 // 完整引入
 const webcommon = require('webcommon')
-const OS = webcommon.getOS()
+//const OS = webcommon.getOS() //获取操作系统类型
 ```
 
 **推荐使用方法**  

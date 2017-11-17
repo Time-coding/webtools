@@ -1,7 +1,7 @@
 /**
  * @desc webpack打包入口文件
  */
-const view3d=require('./3d/view3d')
+const view3d = require('./3d/view3d')
 
 const arrayEqual = require('./array/arrayEqual')
 const getMax = require('./array/getMax')
@@ -55,7 +55,7 @@ const parseQueryString = require('./url/parseQueryString')
 const stringfyQueryString = require('./url/stringfyQueryString')
 
 
-module.exports = {
+webcommon = {
     view3d,
 
     arrayEqual,
@@ -108,3 +108,4 @@ module.exports = {
     parseQueryString,
     stringfyQueryString,
 }
+module.exports = webcommon
