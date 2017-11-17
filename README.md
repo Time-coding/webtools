@@ -137,6 +137,7 @@ const OS = getOS()
 [isEmptyObject]:https://github.com/Time-coding/webtools/blob/master/src/object/isEmptyObject.js
 
 [randomColor]:https://github.com/Time-coding/webtools/blob/master/src/random/randomColor.js
+[randomColorRgb]:https://github.com/Time-coding/webtools/blob/master/src/random/randomColor.js
 [randomNum]:https://github.com/Time-coding/webtools/blob/master/src/random/randomNum.js
 
 [isEmail]:https://github.com/Time-coding/webtools/blob/master/src/regexp/isEmail.js
