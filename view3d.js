@@ -47,4 +47,4 @@ function view3d(tag, ctrl_area, default_rotateX, default_rotateY) {
         };
     }
 }
-module.exports = view3d;
+module.exports = view3d

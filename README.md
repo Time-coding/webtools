@@ -1,6 +1,6 @@
 # webtools
 
-[![Build Status](https://travis-ci.org/proYang/webtools.svg?branch=master) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/webtools) 
+[![Build Status](https://travis-ci.org/Time-coding/webtools.svg?branch=master) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/webtools) 
 
  
 前端业务代码工具库  
@@ -13,7 +13,7 @@
 
 ## 安装使用
 
-1. 直接下载`min`目录下的[webtools.min.js](https://github.com/proYang/webtools/blob/master/min/webtools.min.js)使用，支持UMD通用模块规范  
+1. 直接下载`min`目录下的[webtools.min.js](https://github.com/Time-coding/webtools/blob/master/min/webtools.min.js)使用，支持UMD通用模块规范  
 2. 使用npm安装
 
 ### 浏览器:
@@ -107,46 +107,50 @@ const OS = getOS()
 #### &emsp;&emsp;[parseQueryString][parseQueryString]&emsp;&emsp;url参数转对象
 #### &emsp;&emsp;[stringfyQueryString][stringfyQueryString]&emsp;&emsp;对象序列化
 
-[arrayEqual]:https://github.com/proYang/webtools/blob/master/src/array/arrayEqual.js
+### 3D
+#### &emsp;&emsp;[view3d][view3d]&emsp;&emsp;点击鼠标拖动，查看3D效果
 
-[addClass]:https://github.com/proYang/webtools/blob/master/src/class/addClass.js
-[hasClass]:https://github.com/proYang/webtools/blob/master/src/class/hasClass.js
-[removeClass]:https://github.com/proYang/webtools/blob/master/src/class/removeClass.js
+[arrayEqual]:https://github.com/Time-coding/webtools/blob/master/arrayEqual.js
 
-[getCookie]:https://github.com/proYang/webtools/blob/master/src/cookie/getCookie.js
-[removeCookie]:https://github.com/proYang/webtools/blob/master/src/cookie/removeCookie.js
-[setCookie]:https://github.com/proYang/webtools/blob/master/src/cookie/setCookie.js
+[addClass]:https://github.com/Time-coding/webtools/blob/master/addClass.js
+[hasClass]:https://github.com/Time-coding/webtools/blob/master/hasClass.js
+[removeClass]:https://github.com/Time-coding/webtools/blob/master/removeClass.js
 
-[getExplore]:https://github.com/proYang/webtools/blob/master/src/device/getExplore.js
-[getOS]:https://github.com/proYang/webtools/blob/master/src/device/getOS.js
+[getCookie]:https://github.com/Time-coding/webtools/blob/master/src/cookie/getCookie.js
+[removeCookie]:https://github.com/Time-coding/webtools/blob/master/src/cookie/removeCookie.js
+[setCookie]:https://github.com/Time-coding/webtools/blob/master/src/cookie/setCookie.js
 
-[getScrollTop]:https://github.com/proYang/webtools/blob/master/src/dom/getScrollTop.js
-[offset]:https://github.com/proYang/webtools/blob/master/src/dom/offset.js
-[scrollTo]:https://github.com/proYang/webtools/blob/master/src/dom/scrollTo.js
-[setScrollTop]:https://github.com/proYang/webtools/blob/master/src/dom/setScrollTop.js
+[getExplore]:https://github.com/Time-coding/webtools/blob/master/src/device/getExplore.js
+[getOS]:https://github.com/Time-coding/webtools/blob/master/src/device/getOS.js
 
-[debounce]:https://github.com/proYang/webtools/blob/master/src/function/debounce.js
-[throttle]:https://github.com/proYang/webtools/blob/master/src/function/throttle.js
+[getScrollTop]:https://github.com/Time-coding/webtools/blob/master/src/dom/getScrollTop.js
+[offset]:https://github.com/Time-coding/webtools/blob/master/src/dom/offset.js
+[scrollTo]:https://github.com/Time-coding/webtools/blob/master/src/dom/scrollTo.js
+[setScrollTop]:https://github.com/Time-coding/webtools/blob/master/src/dom/setScrollTop.js
 
-[getKeyName]:https://github.com/proYang/webtools/blob/master/src/keycode/getKeyName.js
+[debounce]:https://github.com/Time-coding/webtools/blob/master/src/function/debounce.js
+[throttle]:https://github.com/Time-coding/webtools/blob/master/src/function/throttle.js
 
-[deepClone]:https://github.com/proYang/webtools/blob/master/src/object/deepClone.js
-[isEmptyObject]:https://github.com/proYang/webtools/blob/master/src/object/isEmptyObject.js
+[getKeyName]:https://github.com/Time-coding/webtools/blob/master/src/keycode/getKeyName.js
 
-[randomColor]:https://github.com/proYang/webtools/blob/master/src/random/randomColor.js
-[randomNum]:https://github.com/proYang/webtools/blob/master/src/random/randomNum.js
+[deepClone]:https://github.com/Time-coding/webtools/blob/master/src/object/deepClone.js
+[isEmptyObject]:https://github.com/Time-coding/webtools/blob/master/src/object/isEmptyObject.js
 
-[isEmail]:https://github.com/proYang/webtools/blob/master/src/regexp/isEmail.js
-[isIdCard]:https://github.com/proYang/webtools/blob/master/src/regexp/isIdCard.js
-[isPhoneNum]:https://github.com/proYang/webtools/blob/master/src/regexp/isPhoneNum.js
-[isUrl]:https://github.com/proYang/webtools/blob/master/src/regexp/isUrl.js
+[randomColor]:https://github.com/Time-coding/webtools/blob/master/src/random/randomColor.js
+[randomNum]:https://github.com/Time-coding/webtools/blob/master/src/random/randomNum.js
 
-[digitUppercase]:https://github.com/proYang/webtools/blob/master/src/string/digitUppercase.js
+[isEmail]:https://github.com/Time-coding/webtools/blob/master/src/regexp/isEmail.js
+[isIdCard]:https://github.com/Time-coding/webtools/blob/master/src/regexp/isIdCard.js
+[isPhoneNum]:https://github.com/Time-coding/webtools/blob/master/src/regexp/isPhoneNum.js
+[isUrl]:https://github.com/Time-coding/webtools/blob/master/src/regexp/isUrl.js
 
-[isSupportWebP]:https://github.com/proYang/webtools/blob/master/src/support/isSupportWebP.js
+[digitUppercase]:https://github.com/Time-coding/webtools/blob/master/src/string/digitUppercase.js
 
-[formatPassTime]:https://github.com/proYang/webtools/blob/master/src/time/formatPassTime.js
-[formatRemainTime]:https://github.com/proYang/webtools/blob/master/src/time/formatRemainTime.js
+[isSupportWebP]:https://github.com/Time-coding/webtools/blob/master/src/support/isSupportWebP.js
 
-[parseQueryString]:https://github.com/proYang/webtools/blob/master/src/url/parseQueryString.js
-[stringfyQueryString]:https://github.com/proYang/webtools/blob/master/src/url/stringfyQueryString.js
+[formatPassTime]:https://github.com/Time-coding/webtools/blob/master/src/time/formatPassTime.js
+[formatRemainTime]:https://github.com/Time-coding/webtools/blob/master/src/time/formatRemainTime.js
+
+[parseQueryString]:https://github.com/Time-coding/webtools/blob/master/src/url/parseQueryString.js
+[stringfyQueryString]:https://github.com/Time-coding/webtools/blob/master/src/url/stringfyQueryString.js
+[view3d]:https://github.com/Time-coding/webtools/blob/master/src/3d/view3d.js
